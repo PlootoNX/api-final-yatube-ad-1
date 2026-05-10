@@ -1,0 +1,21 @@
+###
+
+POST http://127.0.0.1:8000/api/v1/jwt/create/
+Content-Type: application/json
+
+{
+    "username": "ya",
+    "password": "111AaBb222"
+}
+
+
+###
+
+POST http://127.0.0.1:8000/api/v1/follow/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5MDEwMzMyLCJpYXQiOjE3Nzg0MDU1MzIsImp0aSI6IjRmNGE0MDU4MmNiYTQwODViNTFkMDg2NTcwODY2OGNjIiwidXNlcl9pZCI6IjEifQ.mNSu4Ou9wj2kG5Zaxs01SkOIxGBJ4KuwenvRHAKpphY
+
+{
+    "following": "yu"
+}
+

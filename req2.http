@@ -1,0 +1,14 @@
+###
+
+POST http://127.0.0.1:8000/api/v1/jwt/create/
+Content-Type: application/json
+
+{
+    "username": "yu",
+    "password": "111AaBb222"
+}
+
+###
+GET http://127.0.0.1:8000/api/v1/users/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5MDEwNDcwLCJpYXQiOjE3Nzg0MDU2NzAsImp0aSI6IjhjMzY0YWUzNmFmODRiOTA4Zjg5NmZkZTdkOWQwYzBjIiwidXNlcl9pZCI6IjIifQ.Jl0Vnow9lGTKzFWkl6gzO8aSLTrZB3q8s2ocHutXoNM
